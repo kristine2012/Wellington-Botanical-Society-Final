@@ -1,0 +1,8 @@
+$bg-color: #95B6A2;
+
+// mix-ins
+@mixin block-mix{
+	position: absolute;
+	z-index: -1; 
+	background-color: $bg-color;
+}
